@@ -1,0 +1,12 @@
+{
+    "name": "Internet Speed Meter",
+    "description": "Simple and minimal internet speed meter extension for the Gnome Shell",
+    "uuid": "InternetSpeedMeter@sadiq.us.to",
+    "url": "https://github.com/sadiq-bd/InternetSpeedMeter",
+    "version": 1.0,
+    "shell-version": [
+        "45",
+        "46",
+        "47"
+    ]
+}
