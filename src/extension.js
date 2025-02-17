@@ -76,7 +76,7 @@ export default class InternetSpeedMeter extends Extension {
       const downloadSpeed = (downloadBytes - this.prevDownloadBytes) / InternetSpeedMeter.unitBase;
       const uploadSpeed = (uploadBytes - this.prevUploadBytes) / InternetSpeedMeter.unitBase;
 
-      this.netSpeedLabel.set_text(`🠧 ${this.getFormattedSpeed(downloadSpeed)} 🠥 ${this.getFormattedSpeed(uploadSpeed)}`);
+      this.netSpeedLabel.set_text(`🠧 ${this.getFormattedSpeed(downloadSpeed)}   🠥 ${this.getFormattedSpeed(uploadSpeed)}`);
 
       this.prevDownloadBytes = downloadBytes;
       this.prevUploadBytes = uploadBytes;
